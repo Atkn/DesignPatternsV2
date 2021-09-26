@@ -9,21 +9,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{9AC66320-981C-42CA-BDC0-01CCFD62903F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Service", "Singleton.Service\Singleton.Service.csproj", "{94D7E189-43D3-40B3-BA9A-904E3F522803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Service", "Singleton.Service\Singleton.Service.csproj", "{94D7E189-43D3-40B3-BA9A-904E3F522803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.ConsoleUI", "Singleton.ConsoleUI\Singleton.ConsoleUI.csproj", "{3658A8DF-61EB-434C-B6F2-48DBF61598F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.ConsoleUI", "Singleton.ConsoleUI\Singleton.ConsoleUI.csproj", "{3658A8DF-61EB-434C-B6F2-48DBF61598F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.Logger", "FactoryMethod.Logger\FactoryMethod.Logger.csproj", "{0786C1E6-62E2-42F3-B6F6-5F8CF528A0EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.Logger", "FactoryMethod.Logger\FactoryMethod.Logger.csproj", "{0786C1E6-62E2-42F3-B6F6-5F8CF528A0EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod.ConsoleUI", "FactoryMethod.ConsoleUI\FactoryMethod.ConsoleUI.csproj", "{D1CD4D2B-7232-44B0-BF05-59E664348BC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.ConsoleUI", "FactoryMethod.ConsoleUI\FactoryMethod.ConsoleUI.csproj", "{D1CD4D2B-7232-44B0-BF05-59E664348BC5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{B83739E6-A283-4033-8606-FC638DEE7B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory.Method", "AbstractFactory.Method\AbstractFactory.Method.csproj", "{DC5ECCD9-3402-4FD7-A9FB-8861CADF8891}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory.Method", "AbstractFactory.Method\AbstractFactory.Method.csproj", "{DC5ECCD9-3402-4FD7-A9FB-8861CADF8891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory.ConsoleUI", "AbstractFactory.ConsoleUI\AbstractFactory.ConsoleUI.csproj", "{953FAC30-2C1F-473B-889C-50796EE32ACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory.ConsoleUI", "AbstractFactory.ConsoleUI\AbstractFactory.ConsoleUI.csproj", "{953FAC30-2C1F-473B-889C-50796EE32ACB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypeDesign", "PrototypeDesign", "{6638E994-6FA4-440B-95AC-F3AA8C7DED22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesign", "PrototypeDesign\PrototypeDesign.csproj", "{33C06FD3-B21C-44C2-A7B3-3D5E7E3EA45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesing.ConsoleUI", "PrototypeDesing.ConsoleUI\PrototypeDesing.ConsoleUI.csproj", "{36226CF8-5B92-4995-B38F-6318CB61C1B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderDesign", "BuilderDesign", "{D5A0A7C7-BF19-4DF9-900B-3ABB2220C28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesign.Core", "BuilderDesign.Core\BuilderDesign.Core.csproj", "{F56DAE52-1606-4C8E-9D9D-5208E354370A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesign.ConsoleUI", "BuilderDesign.ConsoleUI\BuilderDesign.ConsoleUI.csproj", "{7796645F-8E09-4504-920D-941096FEB2C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +65,22 @@ Global
 		{953FAC30-2C1F-473B-889C-50796EE32ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953FAC30-2C1F-473B-889C-50796EE32ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953FAC30-2C1F-473B-889C-50796EE32ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C06FD3-B21C-44C2-A7B3-3D5E7E3EA45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C06FD3-B21C-44C2-A7B3-3D5E7E3EA45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C06FD3-B21C-44C2-A7B3-3D5E7E3EA45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C06FD3-B21C-44C2-A7B3-3D5E7E3EA45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36226CF8-5B92-4995-B38F-6318CB61C1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36226CF8-5B92-4995-B38F-6318CB61C1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36226CF8-5B92-4995-B38F-6318CB61C1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36226CF8-5B92-4995-B38F-6318CB61C1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56DAE52-1606-4C8E-9D9D-5208E354370A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56DAE52-1606-4C8E-9D9D-5208E354370A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56DAE52-1606-4C8E-9D9D-5208E354370A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56DAE52-1606-4C8E-9D9D-5208E354370A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7796645F-8E09-4504-920D-941096FEB2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7796645F-8E09-4504-920D-941096FEB2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7796645F-8E09-4504-920D-941096FEB2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7796645F-8E09-4504-920D-941096FEB2C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +96,11 @@ Global
 		{DC5ECCD9-3402-4FD7-A9FB-8861CADF8891} = {B83739E6-A283-4033-8606-FC638DEE7B80}
 		{953FAC30-2C1F-473B-889C-50796EE32ACB} = {B83739E6-A283-4033-8606-FC638DEE7B80}
 		{6638E994-6FA4-440B-95AC-F3AA8C7DED22} = {AFEFC3F3-BE8B-4A0C-9BD4-1BAB9E25821A}
+		{33C06FD3-B21C-44C2-A7B3-3D5E7E3EA45A} = {6638E994-6FA4-440B-95AC-F3AA8C7DED22}
+		{36226CF8-5B92-4995-B38F-6318CB61C1B0} = {6638E994-6FA4-440B-95AC-F3AA8C7DED22}
+		{D5A0A7C7-BF19-4DF9-900B-3ABB2220C28E} = {AFEFC3F3-BE8B-4A0C-9BD4-1BAB9E25821A}
+		{F56DAE52-1606-4C8E-9D9D-5208E354370A} = {D5A0A7C7-BF19-4DF9-900B-3ABB2220C28E}
+		{7796645F-8E09-4504-920D-941096FEB2C4} = {D5A0A7C7-BF19-4DF9-900B-3ABB2220C28E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7139766B-5415-41B8-B2A0-BC76588B5F89}

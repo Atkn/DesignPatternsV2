@@ -8,7 +8,7 @@ namespace AbstractFactory.ConsoleUI
     {
         static void Main(string[] args)
         {
-            var productService = new ProductService(new ServiceFactory());
+            var productService = new ProductService(new FactorySetter());
             productService.GetAll();
             Console.WriteLine("Hello World!");
         }

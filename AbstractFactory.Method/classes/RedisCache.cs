@@ -9,7 +9,7 @@ namespace AbstractFactory.Method.classes
     {
         public override void Cache(string data)
         {
-            Console.WriteLine("Cache with redis data:{0}", data);
+            Console.WriteLine("Cache with redis data:");
         }
     }
 }
